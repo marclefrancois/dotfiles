@@ -6,7 +6,6 @@ export JAVA7_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Ho
 export JAVA8_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home"
 export JAVA_HOME="${JAVA7_HOME}"
 export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
-export PGDATA="/usr/local/var/postgres"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
