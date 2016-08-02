@@ -6,6 +6,7 @@ export JAVA7_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Ho
 export JAVA8_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home"
 export JAVA_HOME="${JAVA7_HOME}"
 export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
+export PGDATA="/usr/local/var/postgres"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -57,3 +58,12 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Added by MiregoGradle
+export BINTRAY_USER="mlefrancois"
+export BINTRAY_KEY="b19086debda8dafe4f77cb9a765fddc02bbd413e"
+
+
+export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
+
+source ~/.profile
