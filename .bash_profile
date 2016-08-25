@@ -4,7 +4,7 @@ export MIREGO_REPO="http://mirego-read:1QNr3uuvmn4DzM5@52.5.214.66:8081/nexus/co
 
 export JAVA7_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
 export JAVA8_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home"
-export JAVA_HOME="${JAVA7_HOME}"
+export JAVA_HOME="${JAVA8_HOME}"
 export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
 
 # Load the shell dotfiles, and then some:
@@ -57,6 +57,9 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+export HEROKU_USER="mlefrancois@mirego.com"
+export HEROKU_KEY="af4fed2f-0c41-4099-8c92-537985a0691f"
 
 # Added by MiregoGradle
 export BINTRAY_USER="mlefrancois"
