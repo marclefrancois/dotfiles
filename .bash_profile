@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="~/Library/Python/2.7/bin:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$HOME/bin:$PATH:";
+export PATH="~/Library/Python/3.6/bin:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$HOME/bin:$PATH:";
 export MIREGO_REPO="http://mirego-read:1QNr3uuvmn4DzM5@52.5.214.66:8081/nexus/content/groups/public"
 
 export JAVA7_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
