@@ -16,3 +16,6 @@ Thumbs.db
 *.iml
 jsconfig.json
 .env
+
+# Java projects properties file are never commited
+*.properties
