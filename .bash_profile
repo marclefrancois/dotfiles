@@ -73,3 +73,4 @@ source ~/.profile
 
 ssh-add -K /Users/marclefrancois/.ssh/id_github_rsa
 ssh-add -K /Users/marclefrancois/.ssh/id_rsa
+ssh-add -K /Users/marclefrancois/.ssh/id_tulip_gitlab_rsa
