@@ -44,6 +44,10 @@ if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completio
 	complete -o default -o nospace -F _git g;
 fi;
 
+if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+  . `brew --prefix`/etc/bash_completion.d/git-completion.bash
+fi
+
 #add git completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
