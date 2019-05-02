@@ -1,4 +1,4 @@
-# Compiled Python files
+elixir_ls# Compiled Python files
 *.pyc
 
 # Folder view configuration files
@@ -17,5 +17,12 @@ Thumbs.db
 jsconfig.json
 .env
 
-# Java projects properties file are never commited
-*.properties
+# VSCode
+.vscode
+.elixir_ls
+.settings
+*/bin
+
+# IntelliJ
+.project
+.classpath

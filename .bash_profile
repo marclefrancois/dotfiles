@@ -1,9 +1,10 @@
 # Add `~/bin` to the `$PATH`
-export PATH="~/marger/marger-0.7/bin:~/Library/Python/3.6/bin:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$HOME/bin:$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin";
+export ANDROID_HOME="/Users/marclefrancois/Library/Android/sdk"
+export PATH="~/Library/Marger/bin:~/Library/Python/3.6/bin:$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$HOME/bin:$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$ANDROID_HOME";
 export MIREGO_REPO="http://mirego-read:1QNr3uuvmn4DzM5@52.5.214.66:8081/nexus/content/groups/public"
 
 export JAVA7_HOME="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home"
-export JAVA8_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home"
+export JAVA8_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home"
 export JAVA_HOME="${JAVA8_HOME}"
 export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
 export GROOVY_HOME="/usr/local"
@@ -65,11 +66,6 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 export HEROKU_USER="mlefrancois@mirego.com"
 export HEROKU_KEY="af4fed2f-0c41-4099-8c92-537985a0691f"
-
-# Added by MiregoGradle
-export BINTRAY_USER="mlefrancois"
-export BINTRAY_KEY="b19086debda8dafe4f77cb9a765fddc02bbd413e"
-
 
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 

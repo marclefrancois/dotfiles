@@ -5,7 +5,7 @@
 
 	# View the current working tree status using the short format
 	s = status -s
-	
+
 	st = status
 
 	# Show the diff between the latest commit and the current state
@@ -58,6 +58,8 @@
 	# Remove branches that have already been merged with master
 	# a.k.a. ‘delete merged’
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+	verbs = !git log --pretty=format:'%s' | cut -d \" \" -f 2 | sort | uniq -c | sort -nr
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
@@ -169,7 +171,7 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-	
+
 [user]
 	name = Marc Lefrancois
 	email = mlefrancois@mirego.com
