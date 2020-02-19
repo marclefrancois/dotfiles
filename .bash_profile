@@ -69,6 +69,10 @@ export HEROKU_KEY="af4fed2f-0c41-4099-8c92-537985a0691f"
 
 export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
 source ~/.profile
 
 eval "$(ssh-agent -s)"
