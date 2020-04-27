@@ -22,6 +22,7 @@ jsconfig.json
 .elixir_ls
 .settings
 */bin
+*.code-workspace
 
 # IntelliJ
 .project
